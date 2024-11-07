@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean class="com.score.collection2.Student" name="s1">
+    <property name="sname" value="mahek"> </property>
+    <property name="phone">
+    	<list>
+    		<value>45678</value>
+    		<value>4567</value>
+    	</list>
+    </property>
+    
+    <property name="address">
+    	<set>
+    		<value>edfgh</value>
+    		<value>xcvbn</value>
+    	</set>
+    </property>
+    
+    <property name="courses">
+    	<map>
+    		<entry key="java" value="1"></entry>
+    		<entry key="p" value="2"></entry>
+    	</map>
+    </property>
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    </bean>                  
+</beans>
